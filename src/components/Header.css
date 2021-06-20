@@ -1,0 +1,32 @@
+.backgroundHeader {
+    height: 80vh;
+    background-image: url("../images/background-img-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 66px;
+    font-weight: 800;
+    color: #ffffff;
+    width: 400px;
+    padding-top: 100px;
+}
+
+.header .iconButton {
+    display: flex;
+    align-items: center;
+}
+
+.header button {
+    background-color: transparent;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-left: 22px;
+    text-transform: uppercase;
+    cursor: pointer;
+}

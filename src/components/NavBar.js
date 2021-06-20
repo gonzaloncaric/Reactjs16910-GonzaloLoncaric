@@ -1,5 +1,6 @@
 import './NavBar.css'
 import isotipo from '../images/isotipo.svg'
+import cart from '../images/cart.svg'
 import { Dropdown } from 'semantic-ui-react'
 
 const mujer = [
@@ -40,31 +41,12 @@ const NavBar = () => (
             options={kid}
             />
         </div>
-        <div className="">
-
+        <div className="icon">
+            <img src={cart} alt="Carrito de compras" />
         </div>
     </div>
 )
 
 export default NavBar
-// export default function NavBar() {
-//     return (
-//         <div className="container navBar">
-//             <div className="logo">
-//                 <img src={isotipo} alt="isotipo" />
-//                 <h1>E-shop</h1>
-//             </div>
-//             <div className="menu">
-//                 <a href="">Mujer</a>
-//                 <a href="">Hombre</a>
-//                 <a href="">Niño</a>
-//                 <DropdownMenu/>
-//             </div>
-//             <div className="">
-
-//             </div>
-//         </div>
-//     );
-// }
 
 

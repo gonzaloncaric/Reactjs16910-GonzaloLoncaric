@@ -1,7 +1,7 @@
 .navBar {
     display: flex;
     justify-content: space-between;
-    margin-top: 48px;
+    padding-top: 48px;
 }
 
 .logo {
@@ -17,6 +17,7 @@
     font-size: 19px;
     padding-left: 20px;
     margin: 0;
+    color: #ffffff;
 }
 
 .menu {
@@ -27,7 +28,7 @@
 
 .menu div {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     font-size: 14px;
     font-weight: 600;
 }
